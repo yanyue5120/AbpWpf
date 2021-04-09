@@ -12,5 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DataCollectionAndAnalysis.Service\DataCollectionAndAnalysis.Service.csproj" />
+    <ProjectReference Include="..\LiveChartsCore\LiveChartsCore.csproj" />
   </ItemGroup>
 </Project>

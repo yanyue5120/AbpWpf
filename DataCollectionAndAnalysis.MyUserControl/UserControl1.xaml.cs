@@ -1,3 +1,5 @@
+using LiveCharts;
+using LiveCharts.Wpf;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,6 +25,21 @@ namespace DataCollectionAndAnalysis.MyUserControl
         public UserControl1()
         {
             InitializeComponent();
+
+            SeriesCollection = new SeriesCollection
+            {
+                new LineSeries
+                {
+                    Values = new ChartValues<double> { 3, 5, 7, 4 }
+                },
+                 new ColumnSeries
+                {
+                    Values = new ChartValues<decimal> { 5, 6, 2, 7 }
+                }
+            };
+
+            DataContext = this;
         }
+        public SeriesCollection SeriesCollection { get; set; }
     }
 }
