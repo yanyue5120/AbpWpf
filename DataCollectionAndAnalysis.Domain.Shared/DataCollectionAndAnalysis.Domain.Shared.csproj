@@ -11,6 +11,8 @@
   <ItemGroup>
     <Folder Include="Const\" />
     <Folder Include="Enum\" />
+    <Folder Include="Const\" />
+    <Folder Include="Enum\" />
   </ItemGroup>
 
 </Project>
