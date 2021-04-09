@@ -1,3 +1,4 @@
+using DataCollectionAndAnalysis.MyUserControl.ViewModel;
 using LiveCharts;
 using LiveCharts.Wpf;
 using System.Windows.Controls;
@@ -13,20 +14,7 @@ namespace DataCollectionAndAnalysis.MyUserControl
         {
             InitializeComponent();
 
-            SeriesCollection = new SeriesCollection
-            {
-                new LineSeries
-                {
-                    Values = new ChartValues<double> { 3, 5, 7, 4 }
-                },
-                 new ColumnSeries
-                {
-                    Values = new ChartValues<decimal> { 5, 6, 2, 7 }
-                }
-            };
-
-            DataContext = this;
+            DataContext = new UserControl1Vm();
         }
-        public SeriesCollection SeriesCollection { get; set; }
     }
 }

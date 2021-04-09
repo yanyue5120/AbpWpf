@@ -8,6 +8,7 @@
   <ItemGroup>
     <PackageReference Include="LiveCharts.Wpf.NetCore3" Version="0.9.7" />
     <PackageReference Include="MaterialDesignThemes" Version="4.0.0" />
+    <PackageReference Include="Prism.Unity" Version="8.0.0.1909" />
     <PackageReference Include="Volo.Abp.Core" Version="4.2.2" />
   </ItemGroup>
 

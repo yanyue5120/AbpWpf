@@ -32,5 +32,9 @@
     <ItemGroup>
       <ProjectReference Include="..\..\DataCollectionAndAnalysis.MyUserControl\DataCollectionAndAnalysis.MyUserControl.csproj" />
     </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="ViewModel\" />
+    </ItemGroup>
     
 </Project>
