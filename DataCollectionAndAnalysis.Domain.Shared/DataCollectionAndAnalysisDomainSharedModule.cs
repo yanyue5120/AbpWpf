@@ -1,5 +1,4 @@
-﻿using System;
-using Volo.Abp.Modularity;
+﻿using Volo.Abp.Modularity;
 
 namespace DataCollectionAndAnalysis.Domain.Shared
 {
@@ -8,6 +7,6 @@ namespace DataCollectionAndAnalysis.Domain.Shared
     /// </summary>
     public class DataCollectionAndAnalysisDomainSharedModule : AbpModule
     {
-        
+
     }
 }

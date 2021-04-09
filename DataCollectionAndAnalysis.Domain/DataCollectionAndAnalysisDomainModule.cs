@@ -1,5 +1,4 @@
 ﻿using DataCollectionAndAnalysis.Domain.Shared;
-using System;
 using Volo.Abp.Modularity;
 
 namespace DataCollectionAndAnalysis.Domain
@@ -10,9 +9,9 @@ namespace DataCollectionAndAnalysis.Domain
     /// 它依赖 Domain.Shared
     /// </summary>
     [DependsOn(
-        typeof(DataCollectionAndAnalysisDomainSharedModule)    
+        typeof(DataCollectionAndAnalysisDomainSharedModule)
     )]
-    public class DataCollectionAndAnalysisDomainModule:AbpModule
+    public class DataCollectionAndAnalysisDomainModule : AbpModule
     {
 
     }

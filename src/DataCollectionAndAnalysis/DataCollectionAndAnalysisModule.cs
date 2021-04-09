@@ -1,5 +1,4 @@
 ﻿using DataCollectionAndAnalysis.MyUserControl;
-using DataCollectionAndAnalysis.Service.Contracts;
 using Microsoft.Extensions.DependencyInjection;
 using Volo.Abp.Autofac;
 using Volo.Abp.Modularity;

@@ -3,7 +3,7 @@ using Volo.Abp.Application.Services;
 
 namespace DataCollectionAndAnalysis.Service
 {
-    public class HellowWorldService: ApplicationService,IHellowWorldService
+    public class HellowWorldService : ApplicationService, IHellowWorldService
     {
         public string Run()
         {

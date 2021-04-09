@@ -1,7 +1,4 @@
 ﻿using DataCollectionAndAnalysis.Domain.Shared;
-using DataCollectionAndAnalysis.Service.Contracts.IService;
-using Microsoft.Extensions.DependencyInjection;
-using System;
 using Volo.Abp.Modularity;
 
 namespace DataCollectionAndAnalysis.Service.Contracts
@@ -12,9 +9,9 @@ namespace DataCollectionAndAnalysis.Service.Contracts
     /// 依赖Domain.Shared,因为使用到使用常量，枚举和其他共享对象
     /// </summary>
     [DependsOn(
-        typeof(DataCollectionAndAnalysisDomainSharedModule)    
+        typeof(DataCollectionAndAnalysisDomainSharedModule)
     )]
-    public class DataCollectionAndAnalysisServiceContractsModule:AbpModule
+    public class DataCollectionAndAnalysisServiceContractsModule : AbpModule
     {
     }
 }
