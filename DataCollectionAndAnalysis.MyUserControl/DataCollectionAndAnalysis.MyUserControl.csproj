@@ -6,12 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="LiveCharts.Wpf.NetCore3" Version="0.9.7" />
     <PackageReference Include="MaterialDesignThemes" Version="4.0.0" />
     <PackageReference Include="Volo.Abp.Core" Version="4.2.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\DataCollectionAndAnalysis.Service\DataCollectionAndAnalysis.Service.csproj" />
-    <ProjectReference Include="..\LiveChartsCore\LiveChartsCore.csproj" />
   </ItemGroup>
 </Project>
