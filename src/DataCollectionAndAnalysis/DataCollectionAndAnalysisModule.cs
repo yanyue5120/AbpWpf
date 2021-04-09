@@ -1,17 +1,13 @@
-﻿using Autofac;
-using Autofac.Extensions.DependencyInjection;
-using DataCollectionAndAnalysis.Service;
+﻿using DataCollectionAndAnalysis.MyUserControl;
 using DataCollectionAndAnalysis.Service.Contracts;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Reflection;
 using Volo.Abp.Autofac;
 using Volo.Abp.Modularity;
 
 namespace DataCollectionAndAnalysis
 {
     [DependsOn(typeof(AbpAutofacModule),
-        typeof(DataCollectionAndAnalysisServiceModule)
+        typeof(DataCollectionAndAnalysisMyUserControlModule)
     )]
     public class DataCollectionAndAnalysisModule : AbpModule
     {

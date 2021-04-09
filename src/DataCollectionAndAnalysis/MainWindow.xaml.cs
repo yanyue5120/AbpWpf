@@ -22,7 +22,6 @@ namespace DataCollectionAndAnalysis
         {
             try
             {
-                var res = int.Parse("asdf");
                 HelloLabel.Content = _helloWorldService.Run();
                 Log.Debug("==========Hellow World !==========");
             }
